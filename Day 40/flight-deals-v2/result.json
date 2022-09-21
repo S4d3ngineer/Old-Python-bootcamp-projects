@@ -1,0 +1,203 @@
+{
+  'id': '0f64009f4aac0000087926f6_0|0f64009f4aac0000087926f6_1|009f0f644aba00000b6726e6_0|009f0f644aba00000b6726e6_1',
+  'flyFrom': 'LHR',
+  'flyTo': 'DPS',
+  'cityFrom': 'London',
+  'cityCodeFrom': 'LON',
+  'cityTo': 'Denpasar',
+  'cityCodeTo': 'DPS',
+  'countryFrom': {
+    'code': 'GB',
+    'name': 'United Kingdom'
+  },
+  'countryTo': {
+    'code': 'ID',
+    'name': 'Indonesia'
+  },
+  'type_flights': [
+    'deprecated'
+  ],
+  'nightsInDest': 13,
+  'quality': 1411.66585,
+  'distance': 12540.89,
+  'duration': {
+    'departure': 65100,
+    'return': 71100,
+    'total': 136200
+  },
+  'price': 902,
+  'conversion': {
+    'GBP': 902,
+    'EUR': 1085
+  },
+  'bags_price': {
+    '1': 77.2
+  },
+  'baglimit': {
+    'hand_height': 36,
+    'hand_length': 55,
+    'hand_weight': 7,
+    'hand_width': 23,
+    'hold_dimensions_sum': 158,
+    'hold_height': 52,
+    'hold_length': 78,
+    'hold_weight': 20,
+    'hold_width': 28
+  },
+  'availability': {
+    'seats': 1
+  },
+  'routes': [
+    [
+      'LHR',
+      'DPS'
+    ],
+    [
+      'DPS',
+      'LHR'
+    ]
+  ],
+  'airlines': [
+    'TK',
+    'MH'
+  ],
+  'route': [
+    {
+      'id': '0f64009f4aac0000087926f6_0',
+      'combination_id': '0f64009f4aac0000087926f6',
+      'flyFrom': 'LHR',
+      'flyTo': 'KUL',
+      'cityFrom': 'London',
+      'cityCodeFrom': 'LON',
+      'cityTo': 'Kuala Lumpur',
+      'cityCodeTo': 'KUL',
+      'airline': 'MH',
+      'flight_no': 3,
+      'operating_carrier': 'MH',
+      'operating_flight_no': '3',
+      'fare_basis': 'QBXOWGB',
+      'fare_category': 'M',
+      'fare_classes': 'Q',
+      'fare_family': '',
+      'return': 0,
+      'bags_recheck_required': False,
+      'vi_connection': False,
+      'guarantee': False,
+      'last_seen': '2022-01-31T09:59:13.000Z',
+      'refresh_timestamp': '2022-01-31T09:59:13.000Z',
+      'equipment': None,
+      'vehicle_type': 'aircraft',
+      'local_arrival': '2022-05-05T07:15:00.000Z',
+      'utc_arrival': '2022-05-04T23:15:00.000Z',
+      'local_departure': '2022-05-04T11:00:00.000Z',
+      'utc_departure': '2022-05-04T10:00:00.000Z'
+    },
+    {
+      'id': '0f64009f4aac0000087926f6_1',
+      'combination_id': '0f64009f4aac0000087926f6',
+      'flyFrom': 'KUL',
+      'flyTo': 'DPS',
+      'cityFrom': 'Kuala Lumpur',
+      'cityCodeFrom': 'KUL',
+      'cityTo': 'Denpasar',
+      'cityCodeTo': 'DPS',
+      'airline': 'MH',
+      'flight_no': 715,
+      'operating_carrier': 'MH',
+      'operating_flight_no': '715',
+      'fare_basis': 'QBXOWGB',
+      'fare_category': 'M',
+      'fare_classes': 'Q',
+      'fare_family': '',
+      'return': 0,
+      'bags_recheck_required': False,
+      'vi_connection': False,
+      'guarantee': False,
+      'last_seen': '2022-01-31T09:59:13.000Z',
+      'refresh_timestamp': '2022-01-31T09:59:13.000Z',
+      'equipment': None,
+      'vehicle_type': 'aircraft',
+      'local_arrival': '2022-05-05T12:05:00.000Z',
+      'utc_arrival': '2022-05-05T04:05:00.000Z',
+      'local_departure': '2022-05-05T09:00:00.000Z',
+      'utc_departure': '2022-05-05T01:00:00.000Z'
+    },
+    {
+      'id': '009f0f644aba00000b6726e6_0',
+      'combination_id': '009f0f644aba00000b6726e6',
+      'flyFrom': 'DPS',
+      'flyTo': 'IST',
+      'cityFrom': 'Denpasar',
+      'cityCodeFrom': 'DPS',
+      'cityTo': 'Istanbul',
+      'cityCodeTo': 'IST',
+      'airline': 'TK',
+      'flight_no': 67,
+      'operating_carrier': 'TK',
+      'operating_flight_no': '67',
+      'fare_basis': 'LF2XPCO',
+      'fare_category': 'M',
+      'fare_classes': 'L',
+      'fare_family': '',
+      'return': 1,
+      'bags_recheck_required': False,
+      'vi_connection': False,
+      'guarantee': False,
+      'last_seen': '2022-01-31T10:59:08.000Z',
+      'refresh_timestamp': '1970-01-01T00:00:00.000Z',
+      'equipment': None,
+      'vehicle_type': 'aircraft',
+      'local_arrival': '2022-05-19T04:50:00.000Z',
+      'utc_arrival': '2022-05-19T01:50:00.000Z',
+      'local_departure': '2022-05-18T21:00:00.000Z',
+      'utc_departure': '2022-05-18T13:00:00.000Z'
+    },
+    {
+      'id': '009f0f644aba00000b6726e6_1',
+      'combination_id': '009f0f644aba00000b6726e6',
+      'flyFrom': 'IST',
+      'flyTo': 'LHR',
+      'cityFrom': 'Istanbul',
+      'cityCodeFrom': 'IST',
+      'cityTo': 'London',
+      'cityCodeTo': 'LON',
+      'airline': 'TK',
+      'flight_no': 1979,
+      'operating_carrier': 'TK',
+      'operating_flight_no': '1979',
+      'fare_basis': 'LF2XPCO',
+      'fare_category': 'M',
+      'fare_classes': 'L',
+      'fare_family': '',
+      'return': 1,
+      'bags_recheck_required': False,
+      'vi_connection': False,
+      'guarantee': False,
+      'last_seen': '2022-01-31T10:59:08.000Z',
+      'refresh_timestamp': '1970-01-01T00:00:00.000Z',
+      'equipment': None,
+      'vehicle_type': 'aircraft',
+      'local_arrival': '2022-05-19T09:45:00.000Z',
+      'utc_arrival': '2022-05-19T08:45:00.000Z',
+      'local_departure': '2022-05-19T07:45:00.000Z',
+      'utc_departure': '2022-05-19T04:45:00.000Z'
+    }
+  ],
+  'booking_token': 'CoGUU6GP-Upk5jF0_qKauLyxKETmsjXlsbrmVt5Ygmy0VlscNJMoCBpeH4CnKUnMi3CE1oHrJIs9e6CfqwCRS5ckP1H15ipSXyB-0SPLHStnVbOygrXt2YWwf-g05NCLEIYtTJx62BOJGV9rwqC4AF92XqLkYa5cutCvQ9_VKj-T1QvhFwd7pZB9hscz9GhX2sA9UNUuouZ2QFKGNks-4rQ5os-itG3HyrinVLQPlyVyGP-dCmRBxHMeTWZ_4t2vrudHOja669mDWoTNdsBYvY96YbW__Ttf1NwXJE3K_VhdrYmgcp7PxprD_kUejOxXEBns_jW3HSAnckHG1Ev8aUV9Ll6q-jjTVoqAbw4aUCouudJp9T6MwBeg9UEBs-U0lB6SlLY21vZIcx1H81F1v6GGPgSrL6dg-xEkzMkkE5--e9qjc2FrLBjIlspd8gvXD6r7yZ6Zw3LWXEqHqjK6z8kkd9zbV0dqMKV_uKUR9TiHOW2M6qLAbjIHFvoFB8z2VkeuC0Nolf0jpdep0NeL8hg==',
+  'deep_link': 'https://www.kiwi.com/deep?from=LHR&to=DPS&flightsId=0f64009f4aac0000087926f6_0%7C0f64009f4aac0000087926f6_1%7C009f0f644aba00000b6726e6_0%7C009f0f644aba00000b6726e6_1&price=1085&passengers=1&affilid=sadengineerflightsearch&lang=en&currency=GBP&booking_token=CoGUU6GP-Upk5jF0_qKauLyxKETmsjXlsbrmVt5Ygmy0VlscNJMoCBpeH4CnKUnMi3CE1oHrJIs9e6CfqwCRS5ckP1H15ipSXyB-0SPLHStnVbOygrXt2YWwf-g05NCLEIYtTJx62BOJGV9rwqC4AF92XqLkYa5cutCvQ9_VKj-T1QvhFwd7pZB9hscz9GhX2sA9UNUuouZ2QFKGNks-4rQ5os-itG3HyrinVLQPlyVyGP-dCmRBxHMeTWZ_4t2vrudHOja669mDWoTNdsBYvY96YbW__Ttf1NwXJE3K_VhdrYmgcp7PxprD_kUejOxXEBns_jW3HSAnckHG1Ev8aUV9Ll6q-jjTVoqAbw4aUCouudJp9T6MwBeg9UEBs-U0lB6SlLY21vZIcx1H81F1v6GGPgSrL6dg-xEkzMkkE5--e9qjc2FrLBjIlspd8gvXD6r7yZ6Zw3LWXEqHqjK6z8kkd9zbV0dqMKV_uKUR9TiHOW2M6qLAbjIHFvoFB8z2VkeuC0Nolf0jpdep0NeL8hg==',
+  'tracking_pixel': '',
+  'facilitated_booking_available': False,
+  'pnr_count': 2,
+  'has_airport_change': False,
+  'technical_stops': 0,
+  'throw_away_ticketing': False,
+  'hidden_city_ticketing': False,
+  'virtual_interlining': True,
+  'transfers': [
+
+  ],
+  'local_arrival': '2022-05-05T12:05:00.000Z',
+  'utc_arrival': '2022-05-05T04:05:00.000Z',
+  'local_departure': '2022-05-04T11:00:00.000Z',
+  'utc_departure': '2022-05-04T10:00:00.000Z'
+}

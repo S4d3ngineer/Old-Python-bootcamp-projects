@@ -1,0 +1,39 @@
+{
+  "collaborative": false,
+  "description": "",
+  "external_urls": {
+    "spotify": "https://open.spotify.com/playlist/32km5z3Am3GBxTMj0x5zFK"
+  },
+  "followers": {
+    "href": null,
+    "total": 0
+  },
+  "href": "https://api.spotify.com/v1/playlists/32km5z3Am3GBxTMj0x5zFK",
+  "id": "32km5z3Am3GBxTMj0x5zFK",
+  "images": [],
+  "name": "2000-01-01 Billboard 100",
+  "owner": {
+    "display_name": "SadEngineer",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/user/jashimara"
+    },
+    "href": "https://api.spotify.com/v1/users/jashimara",
+    "id": "jashimara",
+    "type": "user",
+    "uri": "spotify:user:jashimara"
+  },
+  "primary_color": null,
+  "public": false,
+  "snapshot_id": "MSxmYjE1OGRjYWM1MDAyNGI5MWU2NTBjOTY5OGIwNjA3NTZlYTMxZDJk",
+  "tracks": {
+    "href": "https://api.spotify.com/v1/playlists/32km5z3Am3GBxTMj0x5zFK/tracks",
+    "items": [],
+    "limit": 100,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 0
+  },
+  "type": "playlist",
+  "uri": "spotify:playlist:32km5z3Am3GBxTMj0x5zFK"
+}

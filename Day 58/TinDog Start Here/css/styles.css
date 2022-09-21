@@ -1,0 +1,192 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c86;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.cta-heading {
+  color: #fff;
+}
+
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 15%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 18%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+#features {
+  align-items: center;
+  f% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#features i {
+  color: #ef8172;
+  f5%;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+#features p {
+  color: #8f8f8f;
+  padding: 0 15%;
+}
+
+/* Testimonials */
+
+.testimonials-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+#press {
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 10%;
+  margin: 20px 25px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+#pricing p {
+  color: #8f8f8f;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Call to Action */
+
+.cta-container {
+  padding: 3% 10% 0;
+}
+
+/* Footer */
+#footer {
+  padding: 3% 0;
+}
+
+#footer p {
+  color: #8f8f8f;
+}
+
+#footer i {
+  padding: 1.5% 0.5%;
+}
+
+#footer i:hover {
+  color: #8f8f8f;
+}
+
+/* Media Query */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 80%
+  }
+}

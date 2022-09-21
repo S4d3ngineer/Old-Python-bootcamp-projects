@@ -1,0 +1,33 @@
+SETUP Selenium
+
+OPEN cookie clicker via Selenium
+
+GET prices of upgrades as integers and save it in store_offer (the order should be from the most to least expensive)
+
+FIND cookie
+
+time_after_5_sec = current_time + delta_5_sec
+time_after_5_min = current_time + delta_5_min
+CLICK cookie (WHILE LOOP):
+
+    SET interval 0.025 sec
+
+    IF current_time > time_after_5_sec:
+        LOOP through store_offer
+             IF amount of owned cookies is sufficient buy upgrade
+             ELSE move to another upgrade on the list
+        time_after_5_sec = current_time + delta_5_sec
+
+    IF current_time > time_after_5_min:
+        DISPLAY cookies_per_second
+        time_after_5_min = current_time + delta_5_min
+
+__________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
